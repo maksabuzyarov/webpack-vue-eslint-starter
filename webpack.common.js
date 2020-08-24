@@ -34,13 +34,6 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader',
       },
-      {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        loader: 'file-loader',
-        options: {
-          name: 'images/[folder]/[name].[ext]',
-        },
-      },
     ],
   },
   plugins: [
