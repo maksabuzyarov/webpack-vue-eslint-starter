@@ -1,6 +1,6 @@
 {
   "name": "webpack-vue-eslint-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Webpack frontend builder with eslint and Vue support",
   "main": "index.js",
   "scripts": {
