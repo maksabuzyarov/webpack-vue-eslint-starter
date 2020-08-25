@@ -17,6 +17,7 @@ module.exports = merge(common, {
               esModule: false,
             },
           },
+          'postcss-loader',
           'sass-loader',
         ],
       },
