@@ -15,10 +15,17 @@ module.exports = merge(common, {
             loader: 'css-loader',
             options: {
               esModule: false,
+              sourceMap: true,
             },
           },
-          'postcss-loader',
-          'sass-loader',
+          {
+            loader: 'postcss-loader',
+            options: { sourceMap: true },
+          },
+          {
+            loader: 'sass-loader',
+            options: { sourceMap: true },
+          },
         ],
       },
       {
