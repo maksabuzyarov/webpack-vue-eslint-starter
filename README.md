@@ -11,6 +11,7 @@
 
 - ESLint [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) and [Vue Style Guide](https://vuejs.org/v2/style-guide/)
 - Supports Vue Single-File Components (SFCs)
+- [Full-screen overlay](https://webpack.js.org/configuration/dev-server/#devserveroverlay) for compiler errors
 
 ### Development with hot-reload
 ```bash
