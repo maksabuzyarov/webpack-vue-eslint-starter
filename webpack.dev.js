@@ -37,12 +37,15 @@ module.exports = merge(common, {
       },
     ],
   },
+
   plugins: [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development'),
     }),
   ],
+
   devtool: 'source-map',
+
   devServer: {
     open: true,
     hot: true,

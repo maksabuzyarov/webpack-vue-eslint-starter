@@ -7,14 +7,17 @@ module.exports = {
   entry: {
     main: './src/index.js',
   },
+
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
     publicPath: '/',
   },
+
   resolve: {
     extensions: ['.js', '.vue', '.json'],
   },
+
   module: {
     rules: [
       {
@@ -36,6 +39,7 @@ module.exports = {
       },
     ],
   },
+
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
@@ -44,6 +48,7 @@ module.exports = {
     }),
     new VueLoaderPlugin(),
   ],
+
   stats: {
     children: false,
     modules: false,

@@ -27,8 +27,9 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
-      node: {
-        extensions: ['.mjs', '.js', '.json', '.vue'],
+      node: {},
+      webpack: {
+        config: 'webpack.common.js',
       },
     },
   },
